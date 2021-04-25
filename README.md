@@ -5,8 +5,7 @@ The special script for recording video from IP cameras through FFMPEG.
 In this example, I am using directory /opt, but this can be any other directory. Before using directory /opt, make sure that the user under whom FFMPEG will be working has sufficient permissions to write to the dorectory /opt
 
 ```bash
-  cd /opt
-  git clone https://github.com/oleksandr-sovenko/video-recorder
+  git clone https://github.com/oleksandr-sovenko/video-recorder /opt/video-recorder
 ```
 
 ## Cron tasks
