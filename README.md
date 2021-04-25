@@ -1,6 +1,12 @@
 # video-recorder
 The special script for recording video from IP cameras through FFMPEG.
 
+## Install
+```bash
+  cd /opt
+  git clone https://github.com/oleksandr-sovenko/video-recorder
+```
+
 ## Cron tasks
 Let's say the script capture.sh is in /opt/video-recorder, then Cron will look like this
 
